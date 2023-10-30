@@ -3,10 +3,8 @@
     "author": "Abrahamyuson",
     "name": "Barbarian XP Farm Mod",
     "description": "Increase the maximum XP you can gain from barbarians in Unciv.",
-    "version": "1.0",
-    "gameVersion": "2.0",
     "constants": {
-        "maxXPfromBarbarians": 15000  // Adjust the XP value as desired
+        "maxXPfromBarbarians": 15000
     },
     "rules": [
         {
