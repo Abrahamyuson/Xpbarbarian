@@ -1,7 +1,24 @@
 {
-	"modUrl": "https://github.com/ArchDuque-Pancake/Barbarian-xp-farm",
-	"author": "ArchDuque-Pancake",
-	"constants": {
-		"maxXPfromBarbarians": 1000
-	}
+    "modUrl": "https://github.com/ArchDuque-Pancake/Barbarian-xp-farm",
+    "author": "Abrahamyuson",
+    "name": "Barbarian XP Farm Mod",
+    "description": "Increase the maximum XP you can gain from barbarians in Unciv.",
+    "version": "1.0",
+    "gameVersion": "2.0",
+    "constants": {
+        "maxXPfromBarbarians": 15000  // Adjust the XP value as desired
+    },
+    "rules": [
+        {
+            "type": "unit",
+            "name": "Barbarian",
+            "effects": [
+                {
+                    "type": "modify",
+                    "target": "maxXP",
+                    "value": "maxXPfromBarbarians"
+                }
+            ]
+        }
+    ]
 }
